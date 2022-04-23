@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgcpDFv5Z209r-I_onKy6nUYXQdFptrHt3KU3_BswEpA&s" alt=""
+  style="width: 100px;">
+  <h3>Select Your Order</h3>
+  <div id="option">
+    <label><input type="checkbox" value="PIZZA" id="pizza"/>PIZZA</label><br>
+    <label><input type="checkbox" value="BURGER" id="burger"/>BURGER</label><br>
+    <label><input type="checkbox" value="FRANKY" id="franky"/>FRANKY</label><br>
+    <label><input type="checkbox" value="ICED_TEA" id="iced_tea"/>ICED_TEA</label><br>
+    <label><input type="checkbox" value="MILKSHAKE" id="milkshake"/>MILKSHAKE</label><br>
+    <label><input type="checkbox" value="SOFT_SERVE" id="soft_serve"/>SOFT_SERVE</label><br>
+  </div><br>
+  <button onclick="order()">Order Food</button>
+  <p id="order"> Your Order :</p>
+  <div id="container"></div><br>
+  <button onclick="take()">purchase</button>
+</body>
+</html>
+<script src="index.js"></script>
